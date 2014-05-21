@@ -8,6 +8,7 @@ public class MigrationManager {
     private static ArrayList<Server> servers = new ArrayList<Server>();
 	
 	public static void main(String[] args) throws Exception {
+		System.out.println("Hello World!");
 		String str = null;
 		BufferedReader stdIn = new BufferedReader(new InputStreamReader(System.in));
 		System.out.println("Usage: create <server name>\r"
